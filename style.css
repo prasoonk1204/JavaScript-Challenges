@@ -46,7 +46,6 @@ html, body{
     background-color: #d4d4d4;
     border-radius: 10px;
     border: 1px solid #d4d4d4;
-    /* align-content: center; */
 }
 .p img{
     height: 75%;
@@ -61,4 +60,14 @@ html, body{
 }
 a{
     text-decoration: none;
+}
+
+@media (max-width:680px) {
+    .p{
+        width: 360px;
+        height: 270px;
+    }
+    .p h2{
+        margin: 15px;
+    }
 }
