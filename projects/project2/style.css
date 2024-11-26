@@ -36,10 +36,10 @@ html, body{
     width: 30%;
     background-color: #0080ff;
     z-index: 1;
-    transition: 0.4s ease;
+    transition: 0.4s ease 0.2s;
 }
 .item{
-    border: 2px solid #939393;
+    border: 3px solid #939393;
     aspect-ratio: 1/1;
     width: 30px;
     text-align: center;
@@ -47,11 +47,11 @@ html, body{
     background-color: #fff;
     z-index: 2;
     color: #6c6c6c;
-     transition: 0.3s ease;
+     transition: 0.4s ease;
 }
 .active{
-    border: 2px solid #0080ff;
-    transition: 0.3s ease 0.2s;
+    border: 3px solid #0080ff;
+    transition: 0.7s ease-in-out 0.2s;
 }
 .btns{
     margin: 20px;
