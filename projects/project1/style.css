@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: 300;
+}
+html,body{
+    height: 100lvh;
+    width: 100vw;
+    justify-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+#main{
+    height: 85%;
+    width:  90%;
+    display: flex;
+    gap: 10px;
+}
+.card{
+    height: 100%;
+    width: 5vw;
+    border-radius: 50px;
+    position: relative;
+    border: none;
+    flex:0.4;
+    transition: flex 1s ease-in-out;
+    cursor: pointer;
+}
+.card h1{
+    opacity: 0;
+    color: #fff;
+}
+.active{
+    flex: 5;
+}
+.active h1{
+    position: absolute;
+    font-size: 30px;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    opacity: 1;
+    transition: opacity 1s ease-in-out 0.7s;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+
