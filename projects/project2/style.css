@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+}
+.cont{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.barAlt{
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    height: 4px;
+    background-color: #939393;
+    z-index: 0;
+    
+}
+.barMain{
+    position: absolute;
+    bottom: 45%;
+    height: 4px;
+    margin-left: 2px;
+    width: 30%;
+    background-color: #0080ff;
+    z-index: 1;
+    transition: 0.4s ease;
+}
+.item{
+    border: 2px solid #939393;
+    aspect-ratio: 1/1;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 2;
+    color: #6c6c6c;
+     transition: 0.3s ease;
+}
+.active{
+    border: 2px solid #0080ff;
+    transition: 0.3s ease 0.2s;
+}
+.btns{
+    margin: 20px;
+}
+.btns button{
+    padding: 6px 30px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.btnN{
+    background: #0091ff;
+}
+.btns button:hover{
+    background: #006cbe;
+}
